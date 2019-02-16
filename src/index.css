@@ -1,52 +1,54 @@
 body {
-  animation: colorchange 50s infinite; 
-  -webkit-animation: colorchange 50s infinite;
-}
-@keyframes colorchange /* for Safari and Chrome - */
-{
-  0%   {background: red;}
-  25%  {background: yellow;}
-  50%  {background: blue;}
-  75%  {background: green;}
-  100% {background: red;}
-}
-@-webkit-keyframes colorchange /* for Safari and Chrome - */
-{
-  0%   {background: red;}
-  25%  {background: yellow;}
-  50%  {background: blue;}
-  75%  {background: green;}
-  100% {background: red;}
-}
-.work-area {
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
-  height: 700px;
-  background-color: aliceblue;
-}
-.editable {
-  margin-top: 20px !important;
-  overflow: hidden;
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; 
-  /* margin: 0 auto;  */
-  letter-spacing: .10em;
-  animation: 
-    typing 3.5s steps(40, end) infinite,
-    blink-caret .75s step-end infinite;
-}
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-.non-editable{
-  letter-spacing: .10em;
+#bg-video {
+  /* top: 0px;
+  left: 0px; */
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  z-index: -1;
+  /* width: 100%; */
+  /* background-size: cover;
+  width: 100%;
+  height: auto; */
+}
+
+.jumbovidtext {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+}
+
+.jumbotron {
+  background: rgba(128,128,128,0.5);
+  margin: 25vh 0;
+  /* overflow-y: visible;
+  background-size: cover; */
+  /* width: auto;
+  height: 100%; */
+}
+
+main {
+  /* Give the main content container a solid background color to hide the fixed position video */
+  background: #fff;
+  padding: 2em;
+}
+
+.main-header {
+  font-size: 200% !important;
+}
+
+.white-link {
+  color: white
+}
+
+/* mouse over link */
+.white-link:hover {
+    color: black;
 }
