@@ -5,10 +5,10 @@ const path = require('path');
 
 const app = express();
 app.use(bodyParser.json());
-app.use(express.static(`${__dirname}/../react-client/dist`));
+app.use(express.static(`${__dirname}/../public`));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(`__dirname}/../react-client/dist/index.html`));
+  res.sendFile(path.resolve(`__dirname}/../public/index.html`));
 });
 
 app.listen(PORT, () => {

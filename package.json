@@ -8,7 +8,8 @@
     "test": "test",
     "dev": "webpack -d --watch",
     "start": "node ./server/index.js",
-    "build": "webpack -p",
+    "pack-build": "webpack -p",
+    "build": "react-scripts build",
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
     "predeploy": "npm run build",
@@ -32,13 +33,20 @@
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
+    "babel-loader": "8.0.5",
     "babel-preset-env": "^1.7.0",
-    "webpack": "^4.29.4",
+    "webpack": "4.28.3",
     "webpack-cli": "^3.2.3"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
