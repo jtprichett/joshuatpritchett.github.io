@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import { Container } from 'semantic-ui-react';
-import Home from './components/Home';
+import Home from '../components/Home';
 
 class App extends Component {
   constructor() {
@@ -13,7 +13,7 @@ class App extends Component {
     // debugger
     return (
       <div>
-        //<Route exact path={`/`} component={Home} />
+        /*<Route exact path={`/`} component={Home} />*/
       </div>
     );
   }
