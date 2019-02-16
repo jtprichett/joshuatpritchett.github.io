@@ -13,7 +13,7 @@ class App extends Component {
     // debugger
     return (
       <div>
-        <Route exact path={`/`} component={Home} />
+        //<Route exact path={`/`} component={Home} />
       </div>
     );
   }
