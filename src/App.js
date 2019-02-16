@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
-import HomePage from './pages/homePage.js';
+import HomePage from './components/pages/homePage.js';
 
 class App extends Component {
   render() {
