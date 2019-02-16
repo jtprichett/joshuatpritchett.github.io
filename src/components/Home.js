@@ -4,11 +4,9 @@ import {Header, Segment, Divider, Icon, Button, Container, Dropdown} from "seman
 
 class Home extends React.Component {
   render() {
-    let counter = this.state.counter;
-    console.log(this.state)
     return (
       <div>
-        Jprime first test
+        <p>Jprime first test</p>
       </div>
     )
   }
