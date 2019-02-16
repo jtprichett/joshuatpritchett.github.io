@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.0.0",
   "description": "Joshua T Pritchett Personal Website",
-  "homepage": "https://JoshuaTPritchett.github.io/website",
+  "homepage": "https://joshuatpritchett.github.io/website",
   "main": "index.js",
   "scripts": {
     "test": "test",
