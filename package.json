@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://joshuatpritchett.github.io/website",
   "dependencies": {
+    "browserlist": "^1.0.1",
     "gh-pages": "2.0.1",
     "html-react-parser": "^0.4.2",
     "react": "^16.2.0",
@@ -22,5 +23,15 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "engines": {
+    "node": ">=11.10.0",
+    "npm": ">=6.7.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
 }
