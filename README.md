@@ -10,8 +10,8 @@
 Things I want to accomplish:
 - [X] Hosting the website on Github Pages
 - [ ] [Focus on some testing approaches found here](https://content.pivotal.io/blog/testing-strategies)
-      - [ ] TDD
-      - [ ] BDD?
+    - [ ] TDD
+    - [ ] BDD?
 - [ ] Leverage Continuous Integration (CI) practices using [Travis CI](https://travis-ci.org/)
     - [X] Development Environment Parity
     - [ ] Automated Testing
@@ -52,7 +52,7 @@ I use MacOSX and have no idea what it means for parity when developing JavaScrip
 
 ###### Unit Testing
 
-Unit testing with Travis kept consistently failing, I ended up needing to specify a srict [nvm](https://github.com/creationix/nvm) version within my [travis.yml file][./.travis.yml] to match the package.json `engine` requirements.
+Unit testing with Travis kept consistently failing, I ended up needing to specify a srict [nvm](https://github.com/creationix/nvm) version within my [travis.yml file](./.travis.yml) to match the package.json `engine` requirements.
 
 ###### Journeys Testing
 
