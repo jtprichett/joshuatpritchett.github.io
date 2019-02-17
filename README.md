@@ -50,6 +50,12 @@ I use MacOSX and have no idea what it means for parity when developing JavaScrip
 
 ###### Linting
 
+Packages used for linting:
+
+```
+npm install eslint eslint-config-airbnb eslint-plugin-custom-rules babel-eslint
+```
+
 ###### Unit Testing
 
 Unit testing with Travis kept consistently failing, I ended up needing to specify a srict [nvm](https://github.com/creationix/nvm) version within my [travis.yml file](./.travis.yml) to match the package.json `engine` requirements.
