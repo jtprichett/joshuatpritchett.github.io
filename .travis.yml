@@ -1,6 +1,6 @@
 language: node_js
 before_install:
-  - npm install -g npm@latest
+  - sudo npm install -g npm@latest
 script:
   - npm -v
   - node -v
