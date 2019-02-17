@@ -10,11 +10,12 @@ class App extends Component {
 
   render() {
     console.log("This is the process.env", process.env.PUBLIC_URL)
-    // debugger
     return (
-      <div>
-        /*<Route exact path={`/`} component={Home} />*/
-      </div>
+      <Router>
+        <div>
+          <Route exact path={`/`} component={Home} />
+        </div>
+      </Router>
     );
   }
 }
