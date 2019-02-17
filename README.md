@@ -15,10 +15,10 @@ Things I want to accomplish:
 - [ ] Leverage Continuous Integration (CI) practices using [Travis CI](https://travis-ci.org/)
     - [X] Development Environment Parity
     - [ ] Automated Testing
-       - [ ] Linting
+       - [X] Linting
        - [X] Unit Testing
        - [ ] Journeys Testing
-    - [X] Automated Site Deployment to Github Pages
+    - [ ] Automated Site Deployment to Github Pages
 - [ ] Keep my skills sharp, especially since I am now a Product Manager
     - [ ] Use issues to populate stories for website releases
     - [ ] Try to create some wireframes?
@@ -55,6 +55,8 @@ Packages used for linting:
 ```
 npm install eslint eslint-config-airbnb eslint-plugin-custom-rules babel-eslint
 ```
+
+I additionally added [.eslintrc.js](./.eslintrc.js) to be provided with linting rules and added the command `npm run lint` to perform the linting successfully with Travis!
 
 ###### Unit Testing
 
