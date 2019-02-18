@@ -14,11 +14,11 @@ Things I want to accomplish:
     - [ ] BDD?
 - [ ] Leverage Continuous Integration (CI) practices using [Travis CI](https://travis-ci.org/)
     - [X] Development Environment Parity
-    - [ ] Automated Testing
+    - [ ] Testing
        - [X] Linting
        - [X] Unit Testing
        - [ ] Journeys Testing
-    - [ ] Automated Site Deployment to Github Pages
+    - [ ] Deployment to Github Pages
 - [ ] Keep my skills sharp, especially since I am now a Product Manager
     - [ ] Use issues to populate stories for website releases
     - [ ] Try to create some wireframes?
