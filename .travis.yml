@@ -17,6 +17,7 @@ script:
   - npm run build
 before_deploy:
   - ls -lah build/
+  - cat build/asset-manifest.json
 deploy:
   provider: pages
   skip-cleanup: true
