@@ -1,7 +1,8 @@
 import React from 'react';
-import Home from './components/Home';
+import PropTypes from 'prop-types';
+import { Home } from './components/Home';
 
-const App = () => {
+export const App = (props) => {
   return (
     <div>
       <h1> test </h1>
@@ -9,5 +10,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
