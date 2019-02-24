@@ -3,7 +3,7 @@ import React from 'react';
 const Application = () => {
   return (
     <div>
-      <h1> Welcome to Jprime's Site; THINGS WILL GO HERE </h1>
+      <p> Welcome to the JPrime personal website. THINGS WILL GO HERE </p>
     </div>
   );
 };
