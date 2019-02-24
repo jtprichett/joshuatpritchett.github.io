@@ -2,6 +2,9 @@
 logs
 *.Logs
 
+# Code Coverage
+**/coverage/
+
 # Compiled directory and file
 **/build/
 bundle.js
