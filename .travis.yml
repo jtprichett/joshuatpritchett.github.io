@@ -12,14 +12,13 @@ cache:
 before_install:
   - rm README.md
 script:
-  - npm run lint
-  - npm test
-  - npm run test:coverage
-  - npm run build
+  - ./scripts/dependencies.sh
+  - ./scripts/test.sh
+  - ./scripts/build.sh
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  local-dir: build/
+  local-dir: ./web/build/
   on:
     branch: master
