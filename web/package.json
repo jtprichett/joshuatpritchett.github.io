@@ -4,12 +4,7 @@
   "private": true,
   "homepage": "http://joshuatpritchett.github.io/website",
   "dependencies": {
-    "babel-eslint": "9.0.0",
     "browserlist": "^1.0.1",
-    "eslint": "5.12.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-custom-rules": "0.0.0",
-    "eslint-plugin-jest": "^22.3.0",
     "gh-pages": "2.0.1",
     "html-react-parser": "^0.4.2",
     "prop-types": "^15.7.2",
@@ -43,11 +38,16 @@
     "not dead"
   ],
   "devDependencies": {
+    "babel-eslint": "^9.0.0",
     "chai": "^4.2.0",
     "chai-enzyme": "^1.0.0-beta.1",
     "chai-jsx": "^1.0.1",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.9.1",
-    "eslint-config-airbnb-base": "^13.1.0"
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-custom-rules": "0.0.0",
+    "eslint-plugin-jest": "^22.3.0"
   }
 }
