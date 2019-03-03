@@ -7,3 +7,4 @@
 
 Built with React.js
 
+Uses chai, enzyme
