@@ -17,3 +17,6 @@ bundle.js
 **/*.swo
 **/*.swn
 **/*.swm
+
+# Other
+**/.DS_Store
