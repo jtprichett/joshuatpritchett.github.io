@@ -6,5 +6,3 @@
 [![StyleCI](https://github.styleci.io/repos/168992459/shield?style=flat&branch=master)](https://github.styleci.io/repos/168992459)
 
 Built with React.js
-
-Uses chai, enzyme
