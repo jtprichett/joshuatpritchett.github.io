@@ -4,9 +4,12 @@
   "private": true,
   "homepage": "http://joshuatpritchett.github.io/website",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "browserlist": "^1.0.1",
     "gh-pages": "2.0.1",
     "html-react-parser": "^0.4.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
     "prop-types": "^15.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -14,6 +17,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "^2.1.5",
     "react-sound": "^1.1.0",
+    "reactstrap": "^7.1.0",
     "semantic-ui-css": "^2.2.12",
     "semantic-ui-react": "^0.77.2"
   },

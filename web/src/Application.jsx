@@ -1,10 +1,15 @@
 import React from 'react';
+import { Container } from 'reactstrap';
+import Title from './components/Title';
+import './css/Application.css';
 
 const Application = () => {
   return (
-    <div>
-      <p> Welcome to the JPrime personal website. THINGS WILL GO HERE </p>
-    </div>
+    <Container>
+      <div className="Application">
+        <Title />
+      </div>
+    </Container>
   );
 };
 
