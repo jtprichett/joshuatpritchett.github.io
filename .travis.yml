@@ -2,10 +2,6 @@ dist: trusty
 language: node_js
 node_js:
   - "11.10.0"
-branches:
-  only:
-    - master
-    - /^feature.*$/
 cache:
   directories:
     - node_modules
