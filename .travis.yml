@@ -21,4 +21,4 @@ deploy:
   github-token: $GITHUB_TOKEN
   local-dir: ./web/build/
   on:
-    branch: /^release.*$/
+    tags: true
