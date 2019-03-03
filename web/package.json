@@ -7,7 +7,7 @@
     "bootstrap": "^4.3.1",
     "browserlist": "^1.0.1",
     "gh-pages": "2.0.1",
-    "html-react-parser": "^0.4.2",
+    "html-react-parser": "^0.6.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
     "prop-types": "^15.7.2",
@@ -19,7 +19,7 @@
     "react-sound": "^1.1.0",
     "reactstrap": "^7.1.0",
     "semantic-ui-css": "^2.2.12",
-    "semantic-ui-react": "^0.77.2"
+    "semantic-ui-react": "^0.85.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,7 +29,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "lint": "eslint ./src/ --ext .js,.jsx"
+    "lint": "eslint ./src/ --ext .js,.jsx",
+    "update-packages": "ncu -u; npm install"
   },
   "engines": {
     "node": ">=11.10.0",
@@ -42,14 +43,14 @@
     "not dead"
   ],
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.1",
     "chai": "^4.2.0",
     "chai-enzyme": "^1.0.0-beta.1",
     "chai-jsx": "^1.0.1",
     "codecov": "^3.2.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.9.1",
-    "eslint": "^5.12.0",
+    "eslint": "^5.15.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-custom-rules": "0.0.0",
