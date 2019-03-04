@@ -6,7 +6,7 @@ const Title = () => {
     <div className="Title">
       jprime
       <br />
-      <span className="Comment"> Joshua T. Pritchett </span>
+      <span className="Comment"> Josh Pritchett </span>
     </div>
   );
 };

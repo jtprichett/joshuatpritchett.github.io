@@ -1,15 +1,13 @@
 import React from 'react';
-import { Container } from 'reactstrap';
 import Title from './components/Title';
-import './css/Application.css';
+import Menu from './components/Menu';
 
 const Application = () => {
   return (
-    <Container>
-      <div className="Application">
-        <Title />
-      </div>
-    </Container>
+    <div className="Application">
+      <Title />
+      <Menu />
+    </div>
   );
 };
 

@@ -1,5 +1,18 @@
 body {
   background-color: #212121;
-  margin: 120px;
+  padding: 8em 0 0 4em;
   color: white;
+}
+
+a {
+  color: white;
+  text-shadow: black 0 0 1px; 
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 1px;
+  text-decoration: none;
 }
