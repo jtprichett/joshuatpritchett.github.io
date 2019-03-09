@@ -8,6 +8,9 @@ const Menu = () => {
       <ListGroupItem>
         <a href="https://github.com/JoshuaTPritchett/website"> code </a>
       </ListGroupItem>
+      <ListGroupItem>
+        <a href="mailto:jpritchett757@gmail.com"> contact </a>
+      </ListGroupItem>
     </ListGroup>
   );
 };
