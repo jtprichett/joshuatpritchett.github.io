@@ -15,6 +15,9 @@ const Menu = () => {
         <a href="https://www.goodreads.com/user/show/94599223-joshua-pritchett"> readings </a>
       </ListGroupItem>
       <ListGroupItem>
+        <a href="https://github.com/JoshuaTPritchett/resume/blob/master/resume.md"> resume </a>
+      </ListGroupItem>
+      <ListGroupItem>
         <a href="mailto:jpritchett757@gmail.com"> contact </a>
       </ListGroupItem>
     </ListGroup>
