@@ -13,6 +13,7 @@ script:
   - ./scripts/build.sh
 after_success:
   - ln -s ./web/build/index.html ./web/build/README.md
+  - ls -lah ./web/build/
 deploy:
   provider: pages
   skip-cleanup: true
