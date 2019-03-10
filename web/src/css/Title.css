@@ -1,11 +1,13 @@
 .Title {
   font-size: 2em;
+  font-family: 'Kanit', sans-serif;
   margin-bottom: 40px;  
   text-shadow: white 0 0 0px;
 }
 
 .Title .Comment {
   font-size: .75em;
+  font-family: inherit;
   text-shadow: none;
   color: #595959;
 }

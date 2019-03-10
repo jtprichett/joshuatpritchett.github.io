@@ -1,12 +1,13 @@
 .list-group {
-  margin-bottom: 10px;
   padding: 0 0 0 0;
   background-color: inherit;
 }
 
 .list-group .list-group-item {
   background-color: inherit;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 10px;
   border: 0;
   padding: inherit;
-  font-size: 1em;
+  font-size: 1.1em;
 }
