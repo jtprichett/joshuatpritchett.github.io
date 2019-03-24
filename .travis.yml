@@ -11,9 +11,6 @@ script:
   - ./scripts/dependencies.sh
   - ./scripts/test.sh
   - ./scripts/build.sh
-after_success:
-  - ls -lah
-  - cd ./web/build/ && ln -s index.html README.md && ls -lah .
 deploy:
   provider: pages
   skip-cleanup: true
